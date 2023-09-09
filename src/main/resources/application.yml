@@ -1,0 +1,36 @@
+server:
+  port: 9999
+  servlet:
+    session:
+      timeout: 30m
+      persistent: false
+
+spring:
+  application:
+    name: APP
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+
+  flyway:
+    url: ${DB_URL}
+    user: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    locations: classpath:sql
+    out-of-order: false
+    baseline-on-migrate: true
+    enabled: true

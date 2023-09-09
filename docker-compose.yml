@@ -1,0 +1,33 @@
+version: '3'
+networks:
+  digital-network:
+    name: digital-network
+    driver: bridge
+
+services:
+  digital-app:
+    image: source:latest
+    ports:
+      - "9999:9999"
+    environment:
+      DB_URL: jdbc:postgresql://digital-db:5432/source
+      DB_USERNAME: user
+      DB_PASSWORD: user
+    depends_on:
+      - digital-db
+    networks:
+      - digital-network
+
+  digital-db:
+    image: postgres:latest
+    restart: on-failure
+    environment:
+      POSTGRES_DB: source
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: user
+    ports:
+      - "5432:5432"
+    networks:
+      - digital-network
+    expose:
+      - 5432
