@@ -5,12 +5,13 @@ import io.uwp.digital.entity.UserModel;
 import io.uwp.digital.mapper.UserMapper;
 import io.uwp.digital.repository.UserRepository;
 import io.uwp.digital.service.impl.UserService;
-import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.lang.Nullable;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
+
+import javax.validation.constraints.NotNull;
 
 @Service
 @RequiredArgsConstructor

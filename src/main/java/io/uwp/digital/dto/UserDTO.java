@@ -3,9 +3,10 @@ package io.uwp.digital.dto;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import io.uwp.digital.annotations.Timezone;
 import io.uwp.digital.utility.PasswordEncoderTool;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotBlank;
 
 @Data
 public class UserDTO {

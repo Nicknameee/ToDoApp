@@ -1,9 +1,9 @@
 package io.uwp.digital.annotations.processors;
 
 import io.uwp.digital.annotations.Timezone;
-import jakarta.validation.ConstraintValidator;
-import jakarta.validation.ConstraintValidatorContext;
 
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
 import java.util.Arrays;
 import java.util.TimeZone;
 

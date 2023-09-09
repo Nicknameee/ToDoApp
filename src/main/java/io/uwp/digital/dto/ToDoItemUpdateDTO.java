@@ -1,6 +1,6 @@
 package io.uwp.digital.dto;
 
-import jakarta.validation.constraints.NotBlank;
+import javax.validation.constraints.NotBlank;
 import lombok.Data;
 
 import java.time.ZonedDateTime;
