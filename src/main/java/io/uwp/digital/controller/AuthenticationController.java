@@ -1,7 +1,7 @@
 package io.uwp.digital.controller;
 
 import io.uwp.digital.exceptions.AuthenticationException;
-import io.uwp.digital.utility.AuthenticationProcessingService;
+import io.uwp.digital.service.AuthenticationProcessingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
