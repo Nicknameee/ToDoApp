@@ -2,8 +2,8 @@ package io.uwp.digital.controller;
 
 import io.uwp.digital.dto.ToDoItemDTO;
 import io.uwp.digital.dto.ToDoItemUpdateDTO;
-import io.uwp.digital.service.UserServiceImpl;
-import io.uwp.digital.service.impl.ToDoItemService;
+import io.uwp.digital.service.impl.UserServiceImpl;
+import io.uwp.digital.service.ToDoItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

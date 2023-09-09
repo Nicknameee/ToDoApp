@@ -1,4 +1,4 @@
-package io.uwp.digital.service;
+package io.uwp.digital.service.impl;
 
 import io.uwp.digital.dto.ToDoItemDTO;
 import io.uwp.digital.dto.ToDoItemSavedDTO;
@@ -7,7 +7,7 @@ import io.uwp.digital.entity.ToDoItem;
 import io.uwp.digital.exceptions.NotFoundException;
 import io.uwp.digital.mapper.ToDoItemMapper;
 import io.uwp.digital.repository.ToDoItemRepository;
-import io.uwp.digital.service.impl.ToDoItemService;
+import io.uwp.digital.service.ToDoItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

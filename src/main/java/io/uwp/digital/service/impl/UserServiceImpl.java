@@ -1,10 +1,10 @@
-package io.uwp.digital.service;
+package io.uwp.digital.service.impl;
 
 import io.uwp.digital.dto.UserDTO;
 import io.uwp.digital.entity.UserModel;
 import io.uwp.digital.mapper.UserMapper;
 import io.uwp.digital.repository.UserRepository;
-import io.uwp.digital.service.impl.UserService;
+import io.uwp.digital.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.lang.Nullable;
 import org.springframework.security.core.context.SecurityContext;

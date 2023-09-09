@@ -1,4 +1,4 @@
-package io.uwp.digital.service.impl;
+package io.uwp.digital.service;
 
 import io.uwp.digital.dto.ToDoItemDTO;
 import io.uwp.digital.dto.ToDoItemSavedDTO;

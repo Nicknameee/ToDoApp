@@ -1,7 +1,7 @@
 package io.uwp.digital.controller;
 
 import io.uwp.digital.dto.UserDTO;
-import io.uwp.digital.service.impl.UserService;
+import io.uwp.digital.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

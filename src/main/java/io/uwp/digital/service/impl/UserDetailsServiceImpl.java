@@ -1,4 +1,4 @@
-package io.uwp.digital.service;
+package io.uwp.digital.service.impl;
 
 import io.uwp.digital.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
